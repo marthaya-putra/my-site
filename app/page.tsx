@@ -73,6 +73,11 @@ export default function Home() {
             <p className={clsx(styles.name, styles.lastName)}>Putra</p>
           </div>
           <article className={styles.article}>
+            <div className={styles.linkWrapper}>
+              <ArrowedLink href="/resume">
+                <span>View my full resume</span>
+              </ArrowedLink>
+            </div>
             <p>
               <span className={styles.waving}>👋</span> I'm Putra, a passionate
               Front-end Engineer based in Bali, Indonesia with a knack for
@@ -94,11 +99,6 @@ export default function Home() {
               </em>
               .
             </p>
-            <div className={styles.linkWrapper}>
-              <ArrowedLink href="/resume">
-                <span>View my resume</span>
-              </ArrowedLink>
-            </div>
           </article>
           <section className={styles.subSection}>
             <div className={styles.companies}>
