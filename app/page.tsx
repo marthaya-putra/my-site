@@ -79,7 +79,7 @@ export default function Home() {
               crafting seamless and delightful user experiences.
             </p>
             <p>
-              Well versed in modern web technologies, I specialize in building
+              Well-versed in modern web technologies, I specialize in building
               robust and scalable applications using frameworks such as{" "}
               <em>
                 <strong>React</strong>
