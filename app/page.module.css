@@ -1,0 +1,135 @@
+.wrapper {
+  display: grid;
+  place-content: center;
+}
+
+.header {
+  height: 150px;
+  background-color: var(--light-blue);
+}
+
+.main {
+  font-size: 1.25rem;
+  background-color: var(--dark-blue);
+  box-shadow: 2px 4px 8px hsl(219deg 100% 39%);
+  margin: 0 52px;
+  margin-top: -50px;
+}
+
+.mainSection {
+  --name-font-size: 5rem;
+  display: grid;
+  grid-template-areas:
+    "nav picture article"
+    "subSection subSection subSection";
+  grid-template-columns: 100px 500px 1fr;
+  gap: 32px;
+}
+
+.profileWrapper {
+  transform: translateY(-40px);
+  background-color: var(--dark-blue);
+  box-shadow: 2px 4px 8px hsl(219deg 100% 39%);
+  position: relative;
+  grid-area: picture;
+}
+
+.name {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: var(--name-font-size);
+  letter-spacing: 1.5rem;
+}
+
+.nav {
+  font-size: 2.5rem;
+  display: grid;
+  place-content: center;
+  grid-area: nav;
+}
+
+.nav li {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 56px;
+}
+
+.nav > li > ul:hover svg {
+  transition: transform 200ms;
+  transform: scale(1.2);
+  filter: brightness(110%);
+}
+
+.nav a svg {
+  will-change: transform;
+  transition: transform 500ms;
+  text-decoration: none;
+  color: hsl(219, 70%, 78%);
+  filter: drop-shadow(2px 4px 8px hsl(219, 83%, 53%));
+}
+
+.firstName {
+  font-weight: 400;
+  transform: translate(70%, calc(var(--name-font-size) - 50px));
+}
+
+.lastName {
+  transform: translate(50%, calc(var(--name-font-size) + 30px));
+}
+
+.h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  z-index: 1;
+  transform: translateX(50px);
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: calc(var(--name-font-size) + 100px) 32px;
+  grid-area: article;
+  padding-bottom: 0;
+}
+
+.profilePicture {
+  object-fit: cover;
+  filter: sepia(35%) contrast(1.5);
+}
+
+.linkWrapper {
+  align-self: flex-start;
+  margin-top: 16px;
+}
+
+.subSection {
+  grid-area: subSection;
+}
+
+.companies {
+  display: grid;
+  place-content: center;
+  grid-template-columns: repeat(auto-fit, min(100px, 100%));
+  gap: 32px;
+  padding-bottom: 32px;
+}
+
+@keyframes waving-hand {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(10deg);
+  }
+}
+
+.waving {
+  display: inline-block;
+  will-change: transform;
+  animation: waving-hand 500ms ease-in-out alternate infinite;
+  transform-origin: center 60%;
+}
