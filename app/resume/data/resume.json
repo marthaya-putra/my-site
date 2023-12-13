@@ -1,0 +1,106 @@
+{
+  "summary": "Highly skilled Frontend Engineer with 15+ years of experience in developing and implementing user- friendly and visually appealing web applications. Proficient in HTML, CSS, JavaScript, TypeScript, and modern JS frameworks such as React, Next, Angular, and others. On top of that also well-versed in software testing philospohy and framework like Jest, Cypress, Playwright.",
+  "highestEducation": {
+    "degree": "Bachelor Degree",
+    "subject": "Computer Science",
+    "school": "Bina Nusantara University"
+  },
+  "workExperiences": [
+    {
+      "from": "April 2022",
+      "company": "Glints",
+      "title": "Web Software Engineer",
+      "location": {
+        "city": "Bali",
+        "country": "Indonesia",
+        "isRemote": true
+      },
+      "achievements": [
+        "Improve glints.com site performance by 20 - 30%",
+        "Revamp, architect and co-maintain internal design system project",
+        "Integrate e2e tests automation with release pipeline for reliable feature releases",
+        "Contribute to various company product features"
+      ]
+    },
+    {
+      "from": "January 2020",
+      "to": "March 2022",
+      "company": "Nintex",
+      "title": "Senior Engineer",
+      "location": {
+        "city": "Kuala Lumpur",
+        "country": "Malaysia",
+        "isRemote": true
+      },
+      "achievements": [
+        "Main contributor to NextGen Forms Converter, a tool that helps customers migrate their existing Office 365 workflows to Nintex Cloud. This tool has a massive impact on the company's revenue and control over features without relying on Microsoft",
+        "Main contributor to unify Nintex Forms theme with product across Nintex",
+        "Main contributor to Nintex Forms, which is one of the company's core products"
+      ]
+    },
+    {
+      "from": "April 2019",
+      "to": "December 2019",
+      "company": "Apar Technologies",
+      "title": "Senior Engineer (Contract)",
+      "location": {
+        "city": "Kuala Lumpur",
+        "country": "Malaysia",
+        "isRemote": false
+      },
+      "achievements": [
+        "Main contributor to MARS, an interactive and comprehensive application used by DHL Customer Service Agents for parcel pickup bookings, quote estimations, tracking, and tracing, among other functions",
+        "Introduce automation tests to the team"
+      ]
+    },
+    {
+      "from": "June 2016",
+      "to": "January 2019",
+      "company": "Arvato System",
+      "title": "Senior Technical Consultant",
+      "location": {
+        "city": "Kuala Lumpur",
+        "country": "Malaysia",
+        "isRemote": false
+      },
+      "achievements": [
+        "Migrate code base from AngularJS to Angular while still delivering new features",
+        "Main contributor to MediaPortal, a centralized media hub. It provides access not only to diverse sources like newsfeeds, social media, internal and external archives, and MAM systems but also allows users to collect, curate, and share this content within one search logic and an intuitive design",
+        "Coach junior engineers in the team"
+      ]
+    },
+    {
+      "from": "May 2013",
+      "to": "March 2016",
+      "company": "GfK",
+      "title": "Senior Analyst Programmer",
+      "location": {
+        "city": "Kuala Lumpur",
+        "country": "Malaysia",
+        "isRemote": false
+      },
+      "achievements": [
+        "Deliver a full text search feature for STREAM",
+        "An automatic data capturing application which enables GfK’s internal and external auditors to audit sales data faster and more accurate from the retailers to be further processed and analyzed in form of reports",
+        "Main contributor in numerous projects in the company"
+      ]
+    },
+    {
+      "from": "May 2010",
+      "to": "March 2013",
+      "company": "HTC Global Services",
+      "title": "Web Software Engineer",
+      "location": {
+        "city": "Kuala Lumpur",
+        "country": "Malaysia",
+        "isRemote": false
+      },
+      "achievements": [
+        "Improve glints.com site performance by 20 - 30%",
+        "Revamp, architect and co-maintain internal design system project",
+        "Integrate e2e tests automation with release pipeline for reliable feature releases",
+        "Contribute to various company product features"
+      ]
+    }
+  ]
+}

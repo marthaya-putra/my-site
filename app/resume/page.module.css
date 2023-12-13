@@ -1,0 +1,64 @@
+.header {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 48px;
+  place-content: center;
+  padding: 53px;
+  padding-top: 20px;
+}
+
+.h1 {
+  letter-spacing: 0.2rem;
+}
+
+.h4 {
+  font-weight: 250;
+  letter-spacing: 0.3rem;
+}
+
+.picture {
+  border-radius: 50%;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+
+@keyframes move-arrow {
+  from {
+    transform: translateX(-4px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.arrowLink {
+  margin: auto;
+  font-size: 2rem;
+  padding-right: 12px;
+  border-radius: 10000px 9000px;
+}
+
+.arrow {
+  will-change: transform;
+}
+
+.arrowLink:hover {
+  background-color: hsl(219deg 55% 53% / 0.3);
+}
+.arrowLink:hover .arrow {
+  animation: move-arrow 500ms ease-in-out;
+}
+
+.main {
+  margin: 0 auto;
+  padding: 32px 72px;
+  margin-top: -24px;
+  box-shadow: 2px 4px 8px hsl(217, 64%, 71%);
+  width: min(1000px, 100%);
+  background-color: hsl(170deg 100% 99%);
+}

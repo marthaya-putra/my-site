@@ -1,0 +1,15 @@
+.card {
+  padding: 16px 0;
+  padding-bottom: 4px;
+  color: hsl(170deg 2% 41%);
+}
+
+.header {
+  border-bottom: 2px solid var(--primary-line-color);
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.content {
+  padding: 16px 0;
+}
