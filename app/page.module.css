@@ -3,11 +3,6 @@
   place-content: center;
 }
 
-.header {
-  height: 150px;
-  background-color: var(--light-blue);
-}
-
 .main {
   font-size: 1.25rem;
   background-color: var(--dark-blue);

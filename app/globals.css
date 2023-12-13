@@ -1,6 +1,7 @@
 :root {
   --dark-blue: hsl(222deg 35% 10%);
   --light-blue: hsl(219deg 100% 39%);
+  --primary-line-color: hsl(170deg 2% 25%);
 }
 
 /*
@@ -75,8 +76,23 @@ body,
   height: 100%;
 }
 
-h6 {
+header {
+  min-height: 150px;
+  background-color: var(--light-blue);
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+h4 {
   font-size: 1.3rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .mainWrapper {

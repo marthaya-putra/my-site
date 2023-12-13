@@ -33,7 +33,7 @@ export default function Home() {
   ];
   return (
     <div className={styles.wrapper}>
-      <header className={styles.header} />
+      <header />
       <main className={`maxWidthWrapper ${styles.main}`}>
         <section className={styles.mainSection}>
           <nav className={styles.nav}>
