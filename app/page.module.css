@@ -187,6 +187,10 @@
   .profileWrapper {
     transform: revert;
   }
+
+  .name {
+    top: -40px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -203,7 +207,6 @@
   }
 
   .name {
-    top: -40px;
     letter-spacing: 0.75rem;
   }
 }
