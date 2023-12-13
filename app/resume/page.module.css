@@ -1,3 +1,6 @@
+.wrapper {
+  padding-bottom: 48px;
+}
 .header {
   display: grid;
   grid-template-columns: repeat(4, auto);

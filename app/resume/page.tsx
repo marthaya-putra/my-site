@@ -9,6 +9,7 @@ import { FaArrowLeftLong } from "react-icons/fa6";
 import { Card } from "./Card";
 import { Experiences } from "./experiences/Experiences";
 import { ResumeData } from "./type";
+import clsx from "clsx";
 
 export default async function Resume() {
   const email = "marthayaputra@hotmail.com";
@@ -20,7 +21,7 @@ export default async function Resume() {
   const resume: ResumeData = JSON.parse(file);
 
   return (
-    <div className="maxWidthWrapper">
+    <div className={clsx("maxWidthWrapper", styles.wrapper)}>
       <header className={styles.header}>
         <Link href="/" className={styles.arrowLink}>
           <FaArrowLeftLong className={styles.arrow} />
