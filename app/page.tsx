@@ -101,10 +101,16 @@ export default function Home() {
             </p>
           </article>
           <section className={styles.subSection}>
-            <div className={styles.companies}>
-              {companies.map((c) => (
-                <Company logo={c.logo} name={c.name} />
-              ))}
+            <div className={styles.companyWrapper}>
+              <div className={styles.companiesLine} />
+              <div className={styles.companiesCaption}>
+                My employement history
+              </div>
+              <div className={styles.companies}>
+                {companies.map((c) => (
+                  <Company logo={c.logo} name={c.name} key={c.name} />
+                ))}
+              </div>
             </div>
           </section>
         </section>

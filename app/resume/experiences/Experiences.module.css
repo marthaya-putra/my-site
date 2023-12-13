@@ -6,7 +6,7 @@
   position: relative;
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 16px;
+  gap: 32px;
 }
 
 .verticalLine {

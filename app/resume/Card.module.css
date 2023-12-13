@@ -1,7 +1,9 @@
 .card {
-  padding: 16px 0;
-  padding-bottom: 4px;
-  color: hsl(170deg 2% 41%);
+  padding: 8px 0;
+}
+
+.card:first-of-type {
+  padding-top: 16px;
 }
 
 .header {
@@ -11,5 +13,5 @@
 }
 
 .content {
-  padding: 24px 0;
+  padding: 28px 0;
 }

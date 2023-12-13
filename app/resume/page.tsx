@@ -3,6 +3,7 @@ import { Contact } from "@/components/Contact/Contact";
 import styles from "./page.module.css";
 import Image from "next/image";
 import { MdEmail, MdLocalPhone, MdPlace } from "react-icons/md";
+import { FaFilePdf } from "react-icons/fa";
 import Link from "next/link";
 import { FaArrowLeftLong } from "react-icons/fa6";
 import { Card } from "./Card";
@@ -49,11 +50,27 @@ export default async function Resume() {
         </div>
       </header>
       <main className={styles.main}>
+        <Link
+          href="/resume.pdf"
+          target="_blank"
+          title="Download PDF version"
+          className={styles.pdfLink}
+        >
+          <div>Download PDF version</div>
+          <FaFilePdf />
+        </Link>
+
         <Card header="Summary">
           <p>{resume.summary}</p>
         </Card>
         <Card header="Experiences">
           <Experiences experiences={resume.workExperiences} />
+        </Card>
+        <Card header="Education">
+          <p
+            className={styles.degree}
+          >{`${resume.highestEducation.degree} of ${resume.highestEducation.subject}`}</p>
+          <p>{resume.highestEducation.school}</p>
         </Card>
       </main>
     </div>

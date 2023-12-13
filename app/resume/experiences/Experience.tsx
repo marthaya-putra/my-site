@@ -16,14 +16,14 @@ export function Experience({
       </div>
       <div className={styles.companyAndlocation}>
         {`${company} | ${location.city}, ${location.country} ${
-          location.isRemote ? `(Remote)` : undefined
+          location.isRemote ? "(Remote)" : ""
         }`}
       </div>
       <div className={styles.title}>{title}</div>
       <div className={styles.achievements}>
         <ul>
           {achievements.map((achievement) => (
-            <li>{achievement}</li>
+            <li key={achievement}>{achievement}</li>
           ))}
         </ul>
       </div>

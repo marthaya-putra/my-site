@@ -80,8 +80,7 @@
         "isRemote": false
       },
       "achievements": [
-        "Deliver a full text search feature for STREAM",
-        "An automatic data capturing application which enables GfK’s internal and external auditors to audit sales data faster and more accurate from the retailers to be further processed and analyzed in form of reports",
+        "Deliver a full text search feature for STREAM, an automatic data capturing application which enables GfK’s internal and external auditors to audit sales data faster and more accurate from the retailers to be further processed and analyzed in form of reports",
         "Main contributor in numerous projects in the company"
       ]
     },
@@ -89,17 +88,16 @@
       "from": "May 2010",
       "to": "March 2013",
       "company": "HTC Global Services",
-      "title": "Web Software Engineer",
+      "title": "Software Engineer",
       "location": {
         "city": "Kuala Lumpur",
         "country": "Malaysia",
         "isRemote": false
       },
       "achievements": [
-        "Improve glints.com site performance by 20 - 30%",
-        "Revamp, architect and co-maintain internal design system project",
-        "Integrate e2e tests automation with release pipeline for reliable feature releases",
-        "Contribute to various company product features"
+        "Main contributor to Back-end Code Management System BCOMS, software application integrating master and detailed lists of materials to build hard disks. BCOMS allows Western Digital engineer to get necessary information such as the materials and where to find them to build a certain hard disk model, also to help expedite the process of requesting respective departments to supply the raw materials needed",
+        "Main contributor to Statistical Process Control SPC, reporting dashboard for Western Digital engineers to provide a better picture of the hard disk production quality at a glance or in detailed view in the form of Bar, Box, and Plot charts",
+        "Main contributor to Reporting Workbench, reporting dashboard to provide Western Digital engineers and the upper managements with quantity and quality of hard disk parts production to help them with production planning"
       ]
     }
   ]

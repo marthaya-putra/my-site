@@ -2,6 +2,7 @@
   --dark-blue: hsl(222deg 35% 10%);
   --light-blue: hsl(219deg 100% 39%);
   --primary-line-color: hsl(170deg 2% 25%);
+  --font-color: hsl(210deg 64% 96%);
 }
 
 /*
@@ -27,7 +28,7 @@
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
-  color: hsl(210deg 64% 96%);
+  color: var(--font-color);
 }
 /*
   5. Improve media defaults

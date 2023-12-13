@@ -19,6 +19,7 @@
     "subSection subSection subSection";
   grid-template-columns: 100px 500px 1fr;
   gap: 32px;
+  padding-right: 32px;
 }
 
 .profileWrapper {
@@ -102,6 +103,27 @@
 
 .subSection {
   grid-area: subSection;
+  display: grid;
+  gap: 8px;
+}
+
+.companyWrapper {
+  padding: 0 80px;
+}
+
+.companiesLine {
+  height: 8px;
+  display: block;
+  border-bottom: 1px solid var(--font-color);
+  opacity: 0.5;
+}
+
+.companiesCaption {
+  padding: 0 16px;
+  font-size: 0.9rem;
+  margin: auto;
+  transform: translateY(-14px);
+  background-color: var(--dark-blue);
 }
 
 .companies {

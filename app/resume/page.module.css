@@ -55,10 +55,36 @@
 }
 
 .main {
+  --padding-x: 72px;
+  --padding-y: 48px;
+
+  position: relative;
+  color: hsl(170deg 2% 41%);
   margin: 0 auto;
-  padding: 32px 72px;
-  margin-top: -24px;
+  padding: var(--padding-y) var(--padding-x);
+  margin-top: -28px;
   box-shadow: 2px 4px 8px hsl(217, 64%, 71%);
   width: min(1000px, 100%);
   background-color: hsl(170deg 100% 99%);
+}
+
+.pdfLink {
+  position: absolute;
+  display: flex;
+  gap: 8px;
+  top: var(--padding-y);
+  right: var(--padding-x);
+}
+
+.pdfLink:hover {
+  text-decoration: revert;
+}
+
+.pdfLink svg {
+  font-size: 1.5rem;
+}
+
+.degree {
+  font-size: 1.1rem;
+  font-weight: 600;
 }
