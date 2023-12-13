@@ -1,5 +1,6 @@
 .wrapper {
   padding-bottom: 48px;
+  margin: auto;
 }
 .header {
   display: grid;

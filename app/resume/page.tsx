@@ -21,7 +21,7 @@ export default async function Resume() {
   const resume: ResumeData = JSON.parse(file);
 
   return (
-    <div className={clsx("maxWidthWrapper", styles.wrapper)}>
+    <>
       <header className={styles.header}>
         <Link href="/" className={styles.arrowLink}>
           <FaArrowLeftLong className={styles.arrow} />
@@ -50,30 +50,32 @@ export default async function Resume() {
           <Contact icon={<MdPlace />} label="Bali, Indonesia" />
         </div>
       </header>
-      <main className={styles.main}>
-        <Link
-          href="/resume.pdf"
-          target="_blank"
-          title="Download PDF version"
-          className={styles.pdfLink}
-        >
-          <div>Download PDF version</div>
-          <FaFilePdf />
-        </Link>
+      <div className={clsx("maxWidthWrapper", styles.wrapper)}>
+        <main className={styles.main}>
+          <Link
+            href="/resume.pdf"
+            target="_blank"
+            title="Download PDF version"
+            className={styles.pdfLink}
+          >
+            <div>Download PDF version</div>
+            <FaFilePdf />
+          </Link>
 
-        <Card header="Summary">
-          <p>{resume.summary}</p>
-        </Card>
-        <Card header="Experiences">
-          <Experiences experiences={resume.workExperiences} />
-        </Card>
-        <Card header="Education">
-          <p
-            className={styles.degree}
-          >{`${resume.highestEducation.degree} of ${resume.highestEducation.subject}`}</p>
-          <p>{resume.highestEducation.school}</p>
-        </Card>
-      </main>
-    </div>
+          <Card header="Summary">
+            <p>{resume.summary}</p>
+          </Card>
+          <Card header="Experiences">
+            <Experiences experiences={resume.workExperiences} />
+          </Card>
+          <Card header="Education">
+            <p
+              className={styles.degree}
+            >{`${resume.highestEducation.degree} of ${resume.highestEducation.subject}`}</p>
+            <p>{resume.highestEducation.school}</p>
+          </Card>
+        </main>
+      </div>
+    </>
   );
 }
