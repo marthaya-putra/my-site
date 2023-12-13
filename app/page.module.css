@@ -151,3 +151,59 @@
   animation: waving-hand 500ms ease-in-out alternate infinite;
   transform-origin: center 60%;
 }
+
+@media screen and (max-width: 1025px) {
+  .nav {
+    display: none;
+  }
+
+  .mainSection {
+    --name-font-size: 3rem;
+    grid-template-areas:
+      "picture"
+      "article"
+      "subSection";
+    grid-template-columns: auto;
+    padding: 0;
+  }
+
+  .article {
+    font-size: 1.5rem;
+    padding: 0 48px;
+  }
+
+  .profilePicture {
+    margin: 0 auto;
+  }
+
+  .firstName {
+    transform: revert;
+  }
+
+  .lastName {
+    transform: translateY(calc(var(--name-font-size) + 30px));
+  }
+
+  .profileWrapper {
+    transform: revert;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .article {
+    font-size: 1.2rem;
+    padding: 0 24px;
+  }
+
+  .main {
+    margin: revert;
+  }
+  .profilePicture {
+    object-fit: contain;
+  }
+
+  .name {
+    top: -40px;
+    letter-spacing: 0.75rem;
+  }
+}
