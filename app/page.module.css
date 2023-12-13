@@ -121,6 +121,7 @@
 .companiesCaption {
   padding: 0 16px;
   font-size: 0.9rem;
+  width: max-content;
   margin: auto;
   transform: translateY(-14px);
   background-color: var(--dark-blue);

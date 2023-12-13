@@ -104,7 +104,7 @@ export default function Home() {
             <div className={styles.companyWrapper}>
               <div className={styles.companiesLine} />
               <div className={styles.companiesCaption}>
-                My employement history
+                Companies I've worked for
               </div>
               <div className={styles.companies}>
                 {companies.map((c) => (
