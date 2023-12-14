@@ -1,5 +1,5 @@
 {
-  "summary": "Highly skilled Frontend Engineer with 15+ years of experience in developing and implementing user-friendly and visually appealing web applications. Proficient in HTML, CSS, JavaScript, TypeScript, and modern JS frameworks such as React, Next, Angular, and others. On top of that also well-versed in software testing philospohy and framework like Jest, Cypress, Playwright.",
+  "summary": "A battle-tested Front End Engineer based in Bali, Indonesia, boasting over 12 years of expertise in crafting and deploying user-friendly and visually captivating web applications. Skilled in HTML, CSS, JavaScript, TypeScript, and contemporary JS frameworks like React, Next.js, Angular, among others.",
   "highestEducation": {
     "degree": "Bachelor Degree",
     "subject": "Computer Science",
@@ -16,10 +16,9 @@
         "isRemote": true
       },
       "achievements": [
-        "Improve glints.com site performance by 20 - 30%",
-        "Revamp, architect and co-maintain internal design system project",
-        "Integrate e2e tests automation with release pipeline for reliable feature releases",
-        "Contribute to various company product features"
+        "Enhanced the performance of job and employer marketplace websites by 20-30%, leading to improved search engine rankings",
+        "Overhauled, designed, and collaborated in the ongoing maintenance of an internal design system project to enhance the productivity of product engineer",
+        "Implemented and incorporated automation for integration and end-to-end tests into release pipelines, effectively averting the introduction of 60%-70% critical bugs post-deployment"
       ]
     },
     {
@@ -33,9 +32,9 @@
         "isRemote": true
       },
       "achievements": [
-        "Main contributor to NextGen Forms Converter, a tool that helps customers migrate their existing Office 365 workflows to Nintex Cloud. This tool has a massive impact on the company's revenue and control over features without relying on Microsoft",
-        "Main contributor to unify Nintex Forms theme with product across Nintex",
-        "Main contributor to Nintex Forms, which is one of the company's core products"
+        "Played a key role in the development of the product platform migration tool, facilitating the transition from O365 to our proprietary cloud infrastructure. This significantly influenced hesitant customers, as it enabled them to import their existing projects seamlessly without the need to initiate from the beginning",
+        "Played a key role in standardizing the UI/UX across Nintex products, leading to seamless integration between them and projecting a more professional company image",
+        "Participated in initial research efforts aimed at enhancing product accessibility (A11y) to promote inclusivity and ensure compliance with relevant laws"
       ]
     },
     {
@@ -49,8 +48,8 @@
         "isRemote": false
       },
       "achievements": [
-        "Main contributor to MARS, an interactive and comprehensive application used by DHL Customer Service Agents for parcel pickup bookings, quote estimations, tracking, and tracing, among other functions",
-        "Introduce automation tests to the team"
+        "Participated in the development of an interactive and comprehensive parcel management application utilized by DHL Customer Service Agents to enhance productivity and efficiency",
+        "Implemented test automation within the team to enhance confidence and reliability in the delivery of features"
       ]
     },
     {
@@ -64,9 +63,9 @@
         "isRemote": false
       },
       "achievements": [
-        "Migrate code base from AngularJS to Angular while still delivering new features",
-        "Main contributor to MediaPortal, a centralized media hub. It provides access not only to diverse sources like newsfeeds, social media, internal and external archives, and MAM systems but also allows users to collect, curate, and share this content within one search logic and an intuitive design",
-        "Coach junior engineers in the team"
+        "Transferred the code base from AngularJS to Angular, concurrently delivering new features to enhance developer experience and code maintainability",
+        "Played a role in the development of a centralized media hub, aiding our broadcasting clients in more efficient management of their media and digital assets, leading to enhanced user satisfaction",
+        "Provided guidance and mentorship to junior engineers within the team"
       ]
     },
     {
@@ -80,8 +79,9 @@
         "isRemote": false
       },
       "achievements": [
-        "Deliver a full text search feature for STREAM, an automatic data capturing application which enables GfK’s internal and external auditors to audit sales data faster and more accurate from the retailers to be further processed and analyzed in form of reports",
-        "Main contributor in numerous projects in the company"
+        "Implemented a comprehensive full-text search feature for the automatic data capturing application (STREAM). This functionality allows GfK's internal and external auditors to conduct faster and more accurate data audits from retailers",
+        "Enhanced the client data synchronization performance of the STREAM app to encourage user engagement, resulting in increased data flow for monetization purposes",
+        "Promoted from Analyst Programmer to Senior Analyst Programmer"
       ]
     },
     {
@@ -95,9 +95,8 @@
         "isRemote": false
       },
       "achievements": [
-        "Main contributor to Back-end Code Management System BCOMS, software application integrating master and detailed lists of materials to build hard disks. BCOMS allows Western Digital engineer to get necessary information such as the materials and where to find them to build a certain hard disk model, also to help expedite the process of requesting respective departments to supply the raw materials needed",
-        "Main contributor to Statistical Process Control SPC, reporting dashboard for Western Digital engineers to provide a better picture of the hard disk production quality at a glance or in detailed view in the form of Bar, Box, and Plot charts",
-        "Main contributor to Reporting Workbench, reporting dashboard to provide Western Digital engineers and the upper managements with quantity and quality of hard disk parts production to help them with production planning"
+        "Played a role in the development of a material tracking application for Western Digital, leading to a 30% increase in the productivity of their engineers",
+        "Played a role in the creation of a quality tracking reporting dashboard for Western Digital, offering improved insights into overall quality and actionable items"
       ]
     }
   ]

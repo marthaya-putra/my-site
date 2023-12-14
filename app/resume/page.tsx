@@ -23,17 +23,19 @@ export default async function Resume() {
   return (
     <>
       <header className={styles.header}>
-        <Link href="/" className={styles.arrowLink}>
-          <FaArrowLeftLong className={styles.arrow} />
-        </Link>
-        <Image
-          className={styles.picture}
-          src="/profile-picture.png"
-          alt="Profile picture"
-          width={120}
-          height={120}
-        />
-        <div>
+        <div className={styles.pictureWrapper}>
+          <Link href="/" className={styles.arrowLink}>
+            <FaArrowLeftLong className={styles.arrow} />
+          </Link>
+          <Image
+            className={styles.picture}
+            src="/profile-picture.png"
+            alt="Profile picture"
+            width={120}
+            height={120}
+          />
+        </div>
+        <div className={styles.name}>
           <h1 className={styles.h1}>Marthaya Putra</h1>
           <h4 className={styles.h4}>Seasoned Front-end Engineer</h4>
         </div>
@@ -55,10 +57,10 @@ export default async function Resume() {
           <Link
             href="/resume.pdf"
             target="_blank"
-            title="Download PDF version"
+            title="Download Clean Version"
             className={styles.pdfLink}
           >
-            <div>Download PDF version</div>
+            <div className={styles.pdfLinkCaption}>Download Clean Version</div>
             <FaFilePdf />
           </Link>
 

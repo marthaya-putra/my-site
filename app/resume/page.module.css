@@ -2,13 +2,20 @@
   padding-bottom: 48px;
   margin: auto;
 }
+
 .header {
+  --header-gap: 48px;
+
   display: grid;
   grid-template-columns: repeat(4, auto);
-  gap: 48px;
+  gap: var(--header-gap);
   place-content: center;
   padding: 53px;
   padding-top: 20px;
+}
+
+.name {
+  grid-area: unset;
 }
 
 .h1 {
@@ -18,6 +25,10 @@
 .h4 {
   font-weight: 250;
   letter-spacing: 0.3rem;
+}
+
+.pictureWrapper {
+  position: relative;
 }
 
 .picture {
@@ -42,12 +53,17 @@
 
 .arrowLink {
   margin: auto;
-  font-size: 2rem;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  transform: translateX(calc(-100% - 8px));
+  height: 100%;
   padding-right: 12px;
   border-radius: 10000px 9000px;
 }
 
 .arrow {
+  font-size: 2rem;
   will-change: transform;
 }
 
@@ -91,4 +107,75 @@
 .degree {
   font-size: 1.1rem;
   font-weight: 600;
+}
+
+@media screen and (max-width: 1025px) {
+  .header {
+    --header-gap: 36px;
+    grid-template-areas:
+      "picture name"
+      "contacts contacts";
+    grid-template-columns: repeat(3, auto);
+    place-content: center;
+  }
+
+  .picture {
+    grid-area: picture;
+  }
+
+  .name {
+    grid-area: name;
+  }
+
+  .contacts {
+    grid-area: contacts;
+    flex-direction: revert;
+    gap: 16px;
+  }
+
+  .main {
+    --padding-x: 52px;
+    margin-top: 0;
+  }
+
+  .wrapper {
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    --padding-x: 24px;
+  }
+
+  .contacts {
+    display: none;
+  }
+
+  .header {
+    --header-gap: 0px;
+
+    grid-template-areas:
+      "picture"
+      "name"
+      "contacts";
+    grid-template-columns: 1fr;
+    padding-top: 24px;
+    padding-bottom: 0;
+  }
+
+  .pictureWrapper,
+  .name {
+    margin: 0 auto;
+  }
+
+  .h1 {
+    font-size: 2rem;
+  }
+
+  .arrowLink,
+  .h4,
+  .pdfLinkCaption {
+    display: none;
+  }
 }

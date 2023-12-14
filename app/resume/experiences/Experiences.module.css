@@ -24,3 +24,13 @@
   border: 1px solid var(--primary-line-color);
   background-color: hsl(170deg 100% 99%);
 }
+
+@media screen and (max-width: 600px) {
+  .container ul {
+    padding-inline-start: 20px;
+  }
+
+  .content {
+    gap: 16px;
+  }
+}

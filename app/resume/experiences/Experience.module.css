@@ -6,7 +6,7 @@
 }
 
 .container ul {
-  padding-inline-start: 24px;
+  padding-inline-start: 32px;
 }
 
 .companyAndlocation {
@@ -27,4 +27,12 @@
 
 .achievements {
   margin-top: -4px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+@media screen and (max-width: 600px) {
+  .container ul {
+    padding-inline-start: 20px;
+  }
 }
