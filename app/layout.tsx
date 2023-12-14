@@ -5,8 +5,11 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], display: "fallback" });
 
 export const metadata: Metadata = {
-  title: "Marthaya Putra",
-  description: `Marthaya Putra's personal site, including resume`,
+  title: "Marthaya Putra website",
+  description: `Marthaya Putra's personal site`,
+  applicationName: "Marthaya Putra site",
+  generator: "NextJs",
+  keywords: "nextjs, react, server component, marthaya putra resume",
 };
 
 export default function RootLayout({
