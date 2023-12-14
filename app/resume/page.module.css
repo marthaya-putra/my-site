@@ -10,7 +10,7 @@
   grid-template-columns: repeat(4, auto);
   gap: var(--header-gap);
   place-content: center;
-  padding: 53px;
+  padding: 48px;
   padding-top: 20px;
 }
 
