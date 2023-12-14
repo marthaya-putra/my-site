@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], display: "fallback" });
 
 export const metadata: Metadata = {
-  title: "Marthaya Putra website",
+  title: "Marthaya Putra",
   description: `Marthaya Putra's personal site`,
   applicationName: "Marthaya Putra site",
   generator: "NextJs",
