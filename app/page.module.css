@@ -202,8 +202,9 @@
   .main {
     margin: revert;
   }
+
   .profilePicture {
-    object-fit: contain;
+    object-position: left;
   }
 
   .name {
