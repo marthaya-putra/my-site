@@ -67,7 +67,7 @@ export default async function Resume() {
           <Card header="Summary">
             <p>{resume.summary}</p>
           </Card>
-          <Card header="Experiences">
+          <Card header="Experience">
             <Experiences experiences={resume.workExperiences} />
           </Card>
           <Card header="Education">
@@ -75,6 +75,13 @@ export default async function Resume() {
               className={styles.degree}
             >{`${resume.highestEducation.degree} of ${resume.highestEducation.subject}`}</p>
             <p>{resume.highestEducation.school}</p>
+          </Card>
+          <Card header="Skills">
+            <ul>
+              {resume.skills.map((skill) => (
+                <li key={skill}>{skill}</li>
+              ))}
+            </ul>
           </Card>
         </main>
       </div>

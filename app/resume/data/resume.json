@@ -99,5 +99,19 @@
         "Played a role in the creation of a quality tracking reporting dashboard for Western Digital, offering improved insights into overall quality and actionable items"
       ]
     }
+  ],
+  "skills": [
+    "React",
+    "Next.js",
+    "Angular",
+    "Redux",
+    "Styled Components",
+    "Git",
+    "Webpack",
+    "TypeScript",
+    "JavaScript",
+    "Jest",
+    "Cypress",
+    "Playwright"
   ]
 }

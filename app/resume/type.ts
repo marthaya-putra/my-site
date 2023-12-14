@@ -19,4 +19,5 @@ export type ResumeData = {
     school: string;
   };
   workExperiences: ExperienceData[];
+  skills: string[];
 };
